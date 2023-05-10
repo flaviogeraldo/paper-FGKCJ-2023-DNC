@@ -29,16 +29,16 @@ public class Delay_run {
 //		double blind_sfa=Bursty_2hops.blind_sfa(i);
 //		double blind_tfa=Bursty_2hops.blind_tfa(i);
 //		double blind_pmoo=Bursty_2hops.blind_pmoo(i);
-		double fifo_sfa=Delay_UE_5hops.fifo_sfa(i);
-		double fifo_tfa=Delay_UE_5hops.fifo_tfa(i);
-		double blind_sfa=Delay_UE_5hops.blind_sfa(i);
-		double blind_tfa=Delay_UE_5hops.blind_tfa(i);
-		double blind_pmoo=Delay_UE_5hops.blind_pmoo(i);
-//		double fifo_sfa=Delay_UE_6hops.fifo_sfa(i);
-//		double fifo_tfa=Delay_UE_6hops.fifo_tfa(i);
-//		double blind_sfa=Delay_UE_6hops.blind_sfa(i);
-//		double blind_tfa=Delay_UE_6hops.blind_tfa(i);
-//		double blind_pmoo=Delay_UE_6hops.blind_pmoo(i);
+//		double fifo_sfa=Delay_UE_5hops.fifo_sfa(i);
+//		double fifo_tfa=Delay_UE_5hops.fifo_tfa(i);
+//		double blind_sfa=Delay_UE_5hops.blind_sfa(i);
+//		double blind_tfa=Delay_UE_5hops.blind_tfa(i);
+//		double blind_pmoo=Delay_UE_5hops.blind_pmoo(i);
+		double fifo_sfa=Delay_UE_6hops.fifo_sfa(i);
+		double fifo_tfa=Delay_UE_6hops.fifo_tfa(i);
+		double blind_sfa=Delay_UE_6hops.blind_sfa(i);
+		double blind_tfa=Delay_UE_6hops.blind_tfa(i);
+		double blind_pmoo=Delay_UE_6hops.blind_pmoo(i);
 		
 		gravarArq1.printf("%e %e %e %e %e%n",fifo_sfa,fifo_tfa,blind_sfa,blind_tfa,blind_pmoo);
 	}
